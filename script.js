@@ -147,8 +147,8 @@ const mfaSetupStatus = document.getElementById('mfa-setup-status');
 const config = {
   // IMPORTANT: Replace 'https://odoo-proxy-server-final.onrender.com' with your actual Render proxy URL
   // and 's0m3R4nd0mStR1ngF0rMyPr0xyS3cur1ty_xyz123' with your actual API key from Render's environment variables.
-  proxyUrl: 'YOUR_RENDER_PROXY_URL_HERE', // <--- Your Render Proxy URL (NO trailing slash)
-  apiKey: 'YOUR_API_KEY_HERE' // <--- Your API Key (must match Render API_KEY env var)
+  proxyUrl: 'https://odoo-proxy-server-final.onrender.com', // <--- Your Render Proxy URL (NO trailing slash)
+  apiKey: 's0m3R4nd0mStR1ngF0rMyPr0xyS3cur1ty_xyz123' // <--- Your API Key (must match Render API_KEY env var)
 };
 
 // Odoo API Configuration (will be populated from Admin Panel)
